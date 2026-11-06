@@ -1,12 +1,14 @@
-## 📲 Maintainability   
+## 📲 Code maintainability   
 I can think of good code maintainability like when I use a smartphone.  
-  
 John Ousterhout's simple, deep external interface, the touchscreen that organises Robert Martin's complex functions into atomic parts (apps).  
     
 I create simple interfaces and neatly organise code to minimise my thinking, for making future changes.  
-  
 Therefore, I create highly maintainable code, from the smartphone analogy: I can use powerful functions in one tap.  
+  
+More information:  
+[This page shows a discussion between programmers about best practice code maintainability.](https://www.reddit.com/r/softwarearchitecture/comments/1l01moi/clean_code_vs_philosophy_of_software_design_deep)  
 
+  
 ## 🔄 Code complexity  
 
 **Order of complexity or O(n)** measures performance and scale, and it calculates how much execution time or memory usage explodes as data input **n** grows.  
