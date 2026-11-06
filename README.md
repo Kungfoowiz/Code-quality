@@ -1,10 +1,10 @@
 ## 📲 Maintainability   
 I can think of good code maintainability like when I use a smartphone.  
   
-> John Ousterhout's simple, deep external interface, the touchscreen, organises Robert Martin's complex functions into atomic parts (apps).  
-> I create simple interfaces and carefully organise code, in order to minimise my thinking for making changes to those interfaces and code.  
+> John Ousterhout's simple, deep external interface, the touchscreen that organises Robert Martin's complex functions into atomic parts (apps).  
+> I create simple interfaces and neatly organise code to minimise my thinking, for making future changes.  
   
-Therefore, I can create highly maintainable code, from the smartphone analogy: I can use powerful functions in one tap.  
+Therefore, I create highly maintainable code, from the smartphone analogy: I can use powerful functions in one tap.  
 
 
 ## 🔄 Code complexity  
