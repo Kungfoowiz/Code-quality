@@ -6,7 +6,6 @@ I can think of good code maintainability like when I use a smartphone.
   
 Therefore, I can create highly maintainable code, from the smartphone analogy: I can use powerful functions in one tap.  
 
----
 
 ## Code complexity  
 
