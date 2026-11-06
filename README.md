@@ -1,4 +1,4 @@
-### Maintainability   
+## Maintainability   
 I can think of good code maintainability like when I use a smartphone.  
   
 > John Ousterhout's simple, deep external interface, the touchscreen, organises Robert Martin's complex functions into atomic parts (apps).  
@@ -8,7 +8,7 @@ Therefore, I can create highly maintainable code, from the smartphone analogy: I
 
 ---
 
-### Code complexity  
+## Code complexity  
 
 **Order of complexity or O(n)** measures performance and scale, and it calculates how much execution time or memory usage explodes as data input **n** grows.  
 
