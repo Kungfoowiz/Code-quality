@@ -7,29 +7,6 @@ I create simple interfaces and neatly organise code to minimise my thinking, for
   
 Therefore, I create highly maintainable code, from the smartphone analogy: I can use powerful functions in one tap.  
 
-        User
-         |
-         v
-+--------------------+
-|    Touchscreen     |  <-- Simple interface
-+--------------------+
-          |
-          v
-+--------------------+
-|   OrderService     |  <-- Deep module
-|    Checkout()      |
-+--------------------+
-| Validate()         |
-| ProcessPayment()   |
-| SaveOrder()        |
-| SendEmail()        |
-+--------------------+
-
-Simple outside.
-Organised inside.
-Hidden complexity.
-
-
 ## 🔄 Code complexity  
 
 **Order of complexity or O(n)** measures performance and scale, and it calculates how much execution time or memory usage explodes as data input **n** grows.  
