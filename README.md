@@ -8,6 +8,8 @@ Therefore, I can create highly maintainable code, from the smartphone analogy: I
 
 ---
 
+### Code complexity  
+
 **Order of complexity or O(n)** measures performance and scale, and it calculates how much execution time or memory usage explodes as data input **n** grows.  
 
 
