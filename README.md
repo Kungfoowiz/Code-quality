@@ -5,7 +5,7 @@ John Ousterhout's simple, deep external interface, the touchscreen that organise
 I create simple interfaces and neatly organise code to minimise my thinking, for making future changes.  
 Therefore, I create highly maintainable code, from the smartphone analogy: I can use powerful functions in one tap.  
   
-> Related information:  
+> References:   
 > [Microsoft best practice on code metrics such as maintainability and cyclomatic complexity.](https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-values)  
 > [Reddit community discussion about best code maintainability.](https://www.reddit.com/r/softwarearchitecture/comments/1l01moi/clean_code_vs_philosophy_of_software_design_deep)  
 
@@ -34,7 +34,7 @@ Therefore, I create highly maintainable code, from the smartphone analogy: I can
 |**O(n!)** Factorial ☢️ **Nuclear**|• Tries every possible arrangement, order, or permutation.<br />• Am I loop-branching through a shrinking list of choices until no options are left?  <br />**Visualisation (n=3): <br />• 1 ➡️ 2 ➡️ 3 (123)<br />  ➡️ 3 ➡️ 2 (132)<br />• 2 ➡️ 1 ➡️ 3 (213)<br />  ➡️ 3 ➡️ 1 (231)<br />• 3 ➡️ 1 ➡️ 2 (312)<br />  ➡️ 2 ➡️ 1 (321)**|for (int first = 0; first < 3; first++)<br />  for (int next = 0; next < 2; next++)<br />    for (int last = 0; last < 1; last++)|
 
 
-> Related information:  
+> References:  
 > [Wikipedia on Big O Notation.](https://en.wikipedia.org/wiki/Big_O_notation)  
 > [What is cyclomatic complexity and how to reduce it?](https://sourcegraph.com/blog/cyclomatic-complexity-what-it-is-and-how-to-reduce-it)  
 > [A philosophy of software design versus clean code.](https://github.com/johnousterhout/aposd-vs-clean-code)  
