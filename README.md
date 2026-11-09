@@ -7,7 +7,7 @@ Therefore, I create highly maintainable code, from the smartphone analogy: I can
   
 > Related information:  
 > [Microsoft best practice on code metrics such as maintainability and cyclomatic complexity.](https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-values)  
-> [This page shows discussions between programmers on best code maintainability.](https://www.reddit.com/r/softwarearchitecture/comments/1l01moi/clean_code_vs_philosophy_of_software_design_deep)  
+> [Reddit community discussion about best code maintainability.](https://www.reddit.com/r/softwarearchitecture/comments/1l01moi/clean_code_vs_philosophy_of_software_design_deep)  
 
   
 ## 🔄 Code complexity  
