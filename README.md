@@ -19,7 +19,7 @@ I create highly maintainable code by having a simple interface and neatly organi
 As data (n) increases, then run time and memory usage increases.  
 
 **Cyclomatic complexity** measures code structure and testability.  
-The number of code paths, from If conditions and For loops, for understanding code and creating tests.  
+The number of code paths, from If conditions and For loops, to understand code and create tests.  
 
 ### Order of complexity O(n)  
 
