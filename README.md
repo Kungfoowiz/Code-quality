@@ -1,5 +1,5 @@
 ## 📲 Code maintainability   
-A smartphone provides an example of code maintainability.  
+A smartphone is an example of code maintainability.  
   
 The touchscreen is a simple interface to use the complexity of the apps, as per John Ousterhout's Philosophy of Software Design.  
 The apps are the code that is neatly organised to minimise my thinking for future changes, as per Robert Martin's Clean Code.  
