@@ -1,9 +1,10 @@
 ## 📲 Code maintainability   
-I can think of good code maintainability like when I use a smartphone.  
-John Ousterhout's simple, deep external interface, the touchscreen that organises Robert Martin's complex functions into atomic parts (apps).  
-    
-I create simple interfaces and neatly organise code to minimise my thinking, for making future changes.  
-Therefore, I create highly maintainable code, from the smartphone analogy: I can use powerful functions in one tap.  
+A smartphone provides an example of good code maintainability.  
+  
+The touchscreen is a simple interface to use the complexity of the apps, as per John Ousterhout's Philosophy of Software Design.  
+The apps are the code that is neatly organised to minimise my thinking for future changes, as per Robert Martin's Clean Code.  
+
+I create highly maintainable code by having a simple interface and neatly organised apps.  
   
 > References:   
 > [Microsoft best practice on code metrics such as maintainability and cyclomatic complexity.](https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-values)  
