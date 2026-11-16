@@ -15,12 +15,9 @@ I create highly maintainable code by having a simple interface and neatly organi
   
 ## 🔄 Code complexity  
 
-**Order of complexity or O(n)** measures performance and scale, and it calculates how much execution time or memory usage explodes as data input **n** grows.  
+**Order of complexity or O(n)** measures performance and scale, as data 'n' increases, then run time and memory used increases.  
 
-
-**Cyclomatic complexity** measures code structure and testability, and it counts the number of linearly independent paths thru your code, driven by if, loop, and switch logic. It shows how hard it is for you to understand the code, and how many unit tests you will need to cover every scenario.
-
-
+**Cyclomatic complexity** measures code structure and testability. The number of code paths, from If conditions and For loops, to understand the code and create test scenarios.  
 
 ### Order of complexity O(n)
 
