@@ -1,14 +1,16 @@
 ## 📲 Code maintainability   
-A smartphone provides an example of good code maintainability.  
+A smartphone provides an example of code maintainability.  
   
 The touchscreen is a simple interface to use the complexity of the apps, as per John Ousterhout's Philosophy of Software Design.  
 The apps are the code that is neatly organised to minimise my thinking for future changes, as per Robert Martin's Clean Code.  
 
 I create highly maintainable code by having a simple interface and neatly organised apps.  
   
-> References:   
-> [Microsoft best practice on code metrics such as maintainability and cyclomatic complexity.](https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-values)  
-> [Reddit community discussion about best code maintainability.](https://www.reddit.com/r/softwarearchitecture/comments/1l01moi/clean_code_vs_philosophy_of_software_design_deep)  
+**References**  
+[John Ousterhout - The Philosophy of Software Design](https://www.amazon.co.uk/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)  
+[Robert Martin - Clean Code](https://www.amazon.co.uk/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)  
+[Microsoft best practice on code metrics such as maintainability and cyclomatic complexity.](https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-values)  
+[Reddit community discussion about best code maintainability.](https://www.reddit.com/r/softwarearchitecture/comments/1l01moi/clean_code_vs_philosophy_of_software_design_deep)  
 
   
 ## 🔄 Code complexity  
@@ -32,12 +34,12 @@ I create highly maintainable code by having a simple interface and neatly organi
 |**O(n²)** Quadratic ❌ **Bad**|• Every item checks every other item in the dataset. <br />• For each item, do I scan all items (or the remaining items) again?|foreach (var a in items) <br />  foreach (var b in items)|
 |**O(n³)** Cubic 📉 **Very bad**|• Every item checks every possible pair of items. <br />• Do I have three deeply nested loops iterating over the dataset?|foreach (var a in items) <br />  foreach (var b in items) <br />   foreach (var c in items)|
 |**O(2ⁿ)** Exponential 💥 **Disastrous**|• Each increase in input size doubles the total work. <br />• Does each function step branch recursively into two or more independent paths?  <br />**Visualisation (n=3):** DoThing(3) <br />➡️ DoThing(2) ➡️ DoThing(1) and DoThing(1)<br />➡️ DoThing(2) ➡️ DoThing(1) and DoThing(1)|DoThing(int n) { <br />  DoThing(n - 1)<br />  DoThing(n - 1)<br /> }|
-|**O(n!)** Factorial ☢️ **Nuclear**|• Tries every possible arrangement, order, or permutation.<br />• Am I loop-branching through a shrinking list of choices until no options are left?  <br />**Visualisation (n=3): <br />• 1 ➡️ 2 ➡️ 3 (123)<br />  ➡️ 3 ➡️ 2 (132)<br />• 2 ➡️ 1 ➡️ 3 (213)<br />  ➡️ 3 ➡️ 1 (231)<br />• 3 ➡️ 1 ➡️ 2 (312)<br />  ➡️ 2 ➡️ 1 (321)**|for (int first = 0; first < 3; first++)<br />  for (int next = 0; next < 2; next++)<br />    for (int last = 0; last < 1; last++)|
-
-
-> References:  
-> [Wikipedia on Big O Notation.](https://en.wikipedia.org/wiki/Big_O_notation)  
-> [What is cyclomatic complexity and how to reduce it?](https://sourcegraph.com/blog/cyclomatic-complexity-what-it-is-and-how-to-reduce-it)  
-> [A philosophy of software design versus clean code.](https://github.com/johnousterhout/aposd-vs-clean-code)  
-> [IMB: what is cyclomatic complexity and best practices.](https://www.ibm.com/think/topics/cyclomatic-complexity)
+|**O(n!)** Factorial ☢️ **Nuclear**|• Tries every possible arrangement, order, or permutation.<br />• Am I loop-branching through a shrinking list of choices until no options are left?  <br />**Visualisation (n=3): <br />• 1 ➡️ 2 ➡️ 3 (123)<br />  ➡️ 3 ➡️ 2 (132)<br />• 2 ➡️ 1 ➡️ 3 (213)<br />  ➡️ 3 ➡️ 1 (231)<br />• 3 ➡️ 1 ➡️ 2 (312)<br />  ➡️ 2 ➡️ 1 (321)**|for (int first = 0; first < 3; first++)<br />  for (int next = 0; next < 2; next++)<br />    for (int last = 0; last < 1; last++)|  
+  
+  
+**References**  
+[Wikipedia on Big O Notation.](https://en.wikipedia.org/wiki/Big_O_notation)  
+[What is cyclomatic complexity and how to reduce it?](https://sourcegraph.com/blog/cyclomatic-complexity-what-it-is-and-how-to-reduce-it)  
+[A philosophy of software design versus clean code.](https://github.com/johnousterhout/aposd-vs-clean-code)  
+[IMB: what is cyclomatic complexity and best practices.](https://www.ibm.com/think/topics/cyclomatic-complexity)  
   
